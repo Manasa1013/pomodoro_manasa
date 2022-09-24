@@ -1,0 +1,45 @@
+:root{
+    --black : #000000;
+}
+
+.input-container {
+    display: block;
+}
+.timer-input {
+    width: 3rem;
+    display: inline;
+    border: 1px solid transparent;
+    outline: transparent;
+    height: auto;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: xx-large;
+}
+
+.primary-button {
+    border-radius: 0.2rem;
+    border: 1px solid transparent;
+    background-color: var(--black);
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    opacity: 1;
+    outline: whitesmoke;
+}
+
+.primary-button:hover {
+    opacity: 0.8;
+    transition: all 0.1s ease-in-out;
+}
+.primary-button:disabled {
+    opacity: 0.5;
+}
+.flex {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
